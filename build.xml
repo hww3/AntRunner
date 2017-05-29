@@ -52,7 +52,7 @@
 
         <mkdir dir="${classes.dir}"/>
         <javac srcdir="${src.java.arduino};" destdir="${classes.dir}"
-               classpathref="classpath" source="1.5" target="jsr14"/>
+               classpathref="classpath" source="1.5"/>
 
     </target>
 
